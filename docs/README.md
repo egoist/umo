@@ -8,8 +8,10 @@ UMO is a rich text editor which is built on the top of Vue and Quill.js.
 ## Install
 
 ```bash
-yarn add quill umo
+yarn add quill umo-editor
 ```
+
+The package name `umo` soon will be avialble for you too 😅&nbsp; It just takes time for npm to transfer that to me.
 
 ## Usage
 
@@ -23,7 +25,7 @@ yarn add quill umo
 </template>
 
 <script>
-import UmoEditor from 'umo'
+import UmoEditor from 'umo-editor'
 
 export default {
   data() {
