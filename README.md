@@ -1,7 +1,7 @@
 
 # UMO
 
-[![NPM version](https://img.shields.io/npm/v/umo-editor.svg?style=flat)](https://npmjs.com/package/umo-editor) [![NPM downloads](https://img.shields.io/npm/dm/umo-editor.svg?style=flat)](https://npmjs.com/package/umo-editor) [![CircleCI](https://circleci.com/gh/egoist/umo-editor/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/umo-editor/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
+[![NPM version](https://img.shields.io/npm/v/umo-editor.svg?style=flat)](https://npmjs.com/package/umo-editor) [![NPM downloads](https://img.shields.io/npm/dm/umo-editor.svg?style=flat)](https://npmjs.com/package/umo-editor) [![CircleCI](https://circleci.com/gh/egoist/umo-editor/tree/master.svg?style=shield&token=5fa1ad8bd0a94374925eaab71eb4c7debffd032c)](https://circleci.com/gh/egoist/umo-editor/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
 
 A rich text editor, for Vue.js.
 
