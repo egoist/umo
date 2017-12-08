@@ -1,0 +1,49 @@
+{
+  "name": "umo-editor",
+  "version": "0.0.0",
+  "description": "A text editor component for Vue.js",
+  "repository": {
+    "url": "egoist/umo-editor",
+    "type": "git"
+  },
+  "main": "dist/umo-editor.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo",
+    "prepublishOnly": "npm run build",
+    "build": "bili --module-name UmoEditor --format umd,umd-min --globals.quill Quill",
+    "example": "poi",
+    "build:example": "poi build",
+    "gh": "gh-pages -d example/dist",
+    "deploy": "npm run build:example && npm run gh"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "poi": {
+    "entry": "example/index.js",
+    "dist": "example/dist",
+    "homepage": "/"
+  },
+  "dependencies": {
+    "nano-assign": "^1.0.0"
+  },
+  "devDependencies": {
+    "bili": "^0.19.0",
+    "eslint-config-rem": "^3.0.0",
+    "gh-pages": "^1.0.0",
+    "poi": "^9.1.4",
+    "quill": "^1.3.4",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem/prettier",
+    "envs": ["browser"],
+    "ignores": ["example/**"]
+  },
+  "peerDependencies": {
+    "quill": "^1.3.4"
+  }
+}
