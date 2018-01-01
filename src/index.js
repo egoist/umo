@@ -1,4 +1,3 @@
-import Quill from 'quill'
 import assign from 'nano-assign'
 
 const UMO = {
@@ -15,6 +14,7 @@ const UMO = {
   },
 
   mounted() {
+    const Quill = require('quill')
     const modules = this.options.modules || {}
     modules.toolbar = modules.toolbar || this.toolbar
     const options = assign(
