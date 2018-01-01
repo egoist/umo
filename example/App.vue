@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <umo-editor
+    <umo
       @change="handleChange"
       :initial-content="content"
       :toolbar="[['bold', 'italic'], ['link', 'image']]"
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import UmoEditor from '../src'
+import Umo from '../src'
 
 export default {
   data() {
@@ -27,7 +27,7 @@ export default {
   },
 
   components: {
-    UmoEditor
+    Umo
   }
 }
 </script>

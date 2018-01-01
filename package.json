@@ -1,12 +1,12 @@
 {
-  "name": "umo-editor",
+  "name": "umo",
   "version": "1.0.0",
   "description": "A text editor component for Vue.js",
   "repository": {
-    "url": "egoist/umo-editor",
+    "url": "egoist/umo",
     "type": "git"
   },
-  "main": "dist/umo-editor.js",
+  "main": "dist/umo.js",
   "files": [
     "dist"
   ],

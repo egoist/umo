@@ -2,7 +2,7 @@ import Quill from 'quill'
 import assign from 'nano-assign'
 
 const UMO = {
-  name: 'umo-editor',
+  name: 'umo',
 
   props: {
     options: {

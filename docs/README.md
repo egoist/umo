@@ -8,7 +8,7 @@ UMO is a rich text editor which is built on the top of Vue and Quill.js.
 ## Install
 
 ```bash
-yarn add quill umo-editor
+yarn add quill umo
 ```
 
 The package name `umo` soon will be avialble for you too 😅&nbsp; It just takes time for npm to transfer that to me.
@@ -17,7 +17,7 @@ The package name `umo` soon will be avialble for you too 😅&nbsp; It just take
 
 ```vue
 <template>
-  <umo-editor 
+  <umo 
     :inital-content="content" 
     :options="editorOptions" 
     @change="handleChange"
@@ -25,7 +25,7 @@ The package name `umo` soon will be avialble for you too 😅&nbsp; It just take
 </template>
 
 <script>
-import UmoEditor from 'umo-editor'
+import Umo from 'umo'
 
 export default {
   data() {
@@ -43,7 +43,7 @@ export default {
   },
 
   components: {
-    UmoEditor
+    Umo
   }
 }
 </script>
@@ -110,7 +110,7 @@ function onFocus(quill) {
 Use a `ref` to get quill instance:
 
 ```js
-<umo-editor ref="editor" />
+<umo ref="editor" />
 ```
 
 The `this.$refs.editor.quill` will be the quill instance we use in the component.
