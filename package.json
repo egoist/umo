@@ -1,6 +1,6 @@
 {
   "name": "umo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A text editor component for Vue.js",
   "repository": {
     "url": "egoist/umo",
