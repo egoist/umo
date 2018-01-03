@@ -6,7 +6,7 @@ const UMO = {
   props: {
     options: {
       type: Object,
-      default: {}
+      default: () => ({})
     },
     initialContent: Object,
     initialText: String,
