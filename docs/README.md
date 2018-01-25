@@ -11,8 +11,6 @@ UMO is a rich text editor which is built on the top of Vue and Quill.js.
 yarn add quill umo
 ```
 
-The package name `umo` soon will be avialble for you too 😅&nbsp; It just takes time for npm to transfer that to me.
-
 ## Usage
 
 ```vue
